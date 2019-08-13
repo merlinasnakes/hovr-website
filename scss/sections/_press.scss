@@ -1,0 +1,53 @@
+/*=============================PRESS===========================*/
+
+.intro-header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #f8f8f8;
+}
+
+.line-divider {
+	margin: auto;
+}
+
+.block-text-1 {
+	font-family: "Bitstream Vera Roman", "Verdana", "sans-serif";
+	color: #065c6e;
+	margin-bottom: 60px;
+	text-align: center;
+	font-size: 19px;
+}
+
+.intro-social-buttons {
+	padding-top: 43px;
+}
+
+ul.intro-social-buttons>li {
+	display: block;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+ul.intro-social-buttons>li:last-child {
+	margin-bottom: 0;
+}
+
+.network-name {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.btn-default {
+	color: #1fbac6;
+	background-color: #065c6e;
+	border-color: #022b33;
+}
+
+.btn-default:hover {
+	color: #1fbac6;
+	background-color: #008194;
+	border-color: #080808;
+}

@@ -1,0 +1,79 @@
+
+
+<!-- PUSH MENU -->
+<!-- https://tympanus.net/Blueprints/SlidePushMenus/ -->
+
+<body class="cbp-spmenu-push">
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right hidden-lg hidden-md" id="cbp-spmenu-s2">
+			<h3>HOVR</h3>
+				<a class= "page-scroll hidden" href="#home">Home</a>
+				<a class=page-scroll href="#game">Game</a>
+				<a class=page-scroll href="#heroes">Heroes</a>
+				<a class=page-scroll href="#press">Press</a>
+				<a class=page-scroll href="http://steamcommunity.com/app/501870/discussions/">Community</a>
+				<a class="navbar-brand" href="http://steamcommunity.com/app/501870">
+						<img id="brand-image" class="brand-img-logo-steam" src="img/btn_steam.png" alt="Steam-Logo">
+					</a>
+				
+		</nav>
+		
+		<div class="container">
+			<header class="clearfix">
+				<span>Blueprint</span>
+				<h1>Slide and Push Menus</h1>
+				<nav>
+					<a href="http://tympanus.net/Blueprints/QuotesRotator/" class="icon-arrow-left" data-info="previous Blueprint">Previous Blueprint</a>
+					<a href="http://tympanus.net/codrops/?p=14725" class="icon-drop" data-info="back to the Codrops article">back to the Codrops article</a>
+				</nav>
+			</header>
+			<div class="main">
+				<section>
+					<h2>Slide Menus</h2>
+					<!-- Class "cbp-spmenu-open" gets applied to menu -->
+					<button id="showLeft">Show/Hide Left Slide Menu</button>
+					<button id="showRight">Show/Hide Right Slide Menu</button>
+					<button id="showTop">Show/Hide Top Slide Menu</button>
+					<button id="showBottom">Show/Hide Bottom Slide Menu</button>
+				</section>
+				<section class="buttonset">
+					<h2>Push Menus</h2>
+					<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+					<button id="showLeftPush">Show/Hide Left Push Menu</button>
+					<button id="showRightPush">Show/Hide Right Push Menu</button>
+				</section>
+			</div>
+		</div>
+		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+
+		
+	</body>
+
+
+
+
+<!-- Menú OFF CANVAS -->
+		<div class="container hidden-lg hidden-md">
+			<div class="menu-wrap">
+				<nav class="menu">
+					<ul class="icon-list">
+						<li class="hidden"><a class=page-scroll href="#home">Home</a></li>
+  						<li><a class=page-scroll href="#game">Game</a></li>
+  						<li><a class=page-scroll href="#heroes">Heroes</a></li>
+  						<li><a class=page-scroll href="#press">Press</a></li>
+  						<li><a class=page-scroll href="http://steamcommunity.com/app/501870/discussions/">Community</a></li>
+  						<li><a class="navbar-brand" href="http://steamcommunity.com/app/501870">
+  								<img id="brand-image" class="brand-img-logo-steam" src="img/btn_steam.png" alt="Steam-Logo">
+  							</a>
+  						</li>
+				</nav>
+				<button class="close-button" id="close-button">Close Menu</button>
+				<div class="morph-shape" id="morph-shape" data-morph-open="M-1,0h101c0,0,0-1,0,395c0,404,0,405,0,405H-1V0z">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+						<path d="M-1,0h101c0,0-97.833,153.603-97.833,396.167C2.167,627.579,100,800,100,800H-1V0z"/>
+					</svg>
+				</div>
+			</div>
+			<button class="menu-button hidden-md hidden-lg" id="open-button">Open Menu</button>
+		</div><!-- /container -->
+
+		

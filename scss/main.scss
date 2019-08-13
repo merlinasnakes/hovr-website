@@ -1,0 +1,33 @@
+/*Dependencias*/
+
+@import "dependencias/bootstrap";
+@import "dependencias/pushMenu";
+@import "dependencias/owl.carousel";
+@import "dependencias/magnificPopup";
+@import "dependencias/font-awesome.min";
+
+/* variables */
+ 
+//@import "helper/variables";
+//@import "helper/txt";
+
+/* helper */
+
+// @import "helper/animaciones";
+// @import "helper/general";
+// @import "helper/font";
+// @import "helper/txt";
+// @import "helper/botones";
+
+/* sections */
+
+ @import "sections/general";
+ @import "sections/navbar";
+ @import "sections/home";
+ @import "sections/game";
+ @import "sections/heroes";
+ @import "sections/press";
+ @import "sections/suscribe";
+ @import "sections/footer";
+ 
+

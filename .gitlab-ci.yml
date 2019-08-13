@@ -1,0 +1,17 @@
+image: python:latest
+
+deploy:
+  script:
+    - pip install awscli
+    - aws s3 sync _dist/ s3://mantaray.xyz/hovr/ --delete
+  only:
+    - dev
+
+deploy:
+  script:
+    - pip install awscli
+    - aws s3 sync _dist/ s3://mantaray.xyz/hovr/ --delete
+    - aws configure set preview.cloudfront true
+    - aws cloudfront create-invalidation --distribution-id EGEC6GK386EAE --paths '/\*'
+  only:
+    - stable

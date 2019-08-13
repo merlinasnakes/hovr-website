@@ -1,0 +1,59 @@
+
+.brand-img-logo {
+	height: 25px;
+	width: 43px;
+	margin: -3px;
+}
+
+.navbar {
+	height: 40px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #4c9aa6;
+}
+
+.navbar-inverse {
+	background-color: rgba(0, 0, 0, 0.89);
+	border-color: rgba(8, 8, 8, 0.85);
+}
+
+.navbar {
+	font-family: "Mixolydian Titling Normal", "Verdana";
+	font-size: 14px
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #00deff;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+	color: #1fbac6;
+	background-color: rgba(0, 0, 0, 0.85);
+	border-color: rgba(8, 8, 8, 0.85);
+}
+
+.brand-img-logo-steam {
+	float: right !important;
+	height: 30px;
+	margin: -6px;
+}
+
+.brand-img-logo-steam a:hover {
+	src: url(../img/btn_steam_press.png)
+}
+
+.navbar-fixed-top {
+	border-width: 0px;
+}
+
+@media (max-width: 769px) {
+	.navbar-collapse ul {
+		margin-top: 0;
+		margin-bottom: 0;
+		background-color: rgba(0, 0, 0, 0.85);
+	}
+}

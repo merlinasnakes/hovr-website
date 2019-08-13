@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+	padding-top: 50px;
+}
+
+.image-full {
+	padding: 0px;
+}
+
+.image-full img {
+	margin: auto;
+}
+
+.padding-cero {
+	padding: 0;
+}
+
+@font-face {
+	font-family: "Mixolydian Titling Normal";
+	src: url(../fonts/Mixolydian.ttf)
+}
+
+@font-face {
+	font-family: "Bitstream Vera Roman", "sans-serif";
+	src: url(../fonts/Vera.ttf)
+}
+
+.image-slider img {
+	width: 80%;
+	padding-left: 250px;
+	padding-top: 55px;
+	padding-bottom: 100px
+}

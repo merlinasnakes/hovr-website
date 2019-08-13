@@ -1,0 +1,134 @@
+%font-family1 {
+    font-family: 'Verdana', 'Geneva', 'sans-serif';
+}
+
+%font-family2 {
+    font-family: 'Geogrotesque', 'sans-serif';
+}
+
+%font-H1-grande {
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    @extend %font-family2;
+    margin: 10px 0;
+}
+
+%font-H1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    @extend %font-family2;
+    margin: 10px 0;
+}
+
+%font-H2 {
+    font-size: 29px;
+    font-weight: 600;
+    @extend %font-family2;
+    margin: 10px 0;
+}
+
+%font-H3 {
+    font-size: 26px;
+    font-weight: 600;
+    @extend %font-family2;
+    margin: 10px 0;
+    line-height: 30px;
+}
+
+%font-P1 {
+    font-size: 14px;
+    font-weight: 400;
+    @extend %font-family1;
+    margin: 10px 0;
+}
+
+%font-P2 {
+    font-size: 20px;
+    font-weight: 500;
+    @extend %font-family2;
+}
+
+%font-P3 {
+    font-size: 13px;
+    font-weight: 500;
+    @extend %font-family2;
+    margin: 7px 0 0 0;
+}
+
+%error-item-active {
+    .error-item {
+        font-size: 14px;
+        font-weight: 500;
+        font-style: italic;
+        color: $color-rojo;
+        background: #ffeeee;
+        clear: both;
+        margin-top: 0px;
+        padding: 3px 0;
+        &.active {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    %font-H1 {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    %font-H2 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+    %font-H3 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    %font-P1 {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    %font-P2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    %font-H1 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    %font-H2 {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    %font-H2 {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    %font-P1 {
+        font-size: 13px;
+        margin: 10px 0;
+    }
+    %font-P2 {
+        font-size: 13px;
+    }
+}
+
+h1 {
+    @extend %font-H1;
+}
+
+h2 {
+    @extend %font-H2;
+}
+
+h3 {
+    @extend %font-H3;
+}
+
+p {
+    @extend %font-P1;
+}
